@@ -17,15 +17,8 @@ body
 
 header
 {
-	background-color: black;
-	color: white;
-}
 
-#conteneur
-{
-	display: flex;
-	justify-content: space-around;
-	color: white;
+	color: blue;
 }
 
 footer
