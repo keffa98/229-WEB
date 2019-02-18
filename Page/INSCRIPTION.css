@@ -1,0 +1,63 @@
+
+body
+{
+  font-size: 1,3em;
+  font-family: "OpenSans",sans-serif;
+  background-color: grey;
+  padding: 12px;
+  margin: 50px;
+
+
+}
+
+.formulaire
+{
+	
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-between;
+    
+
+}
+
+.bord
+{
+	width:350px;
+	border: 1px solid grey;
+	text-align: justify; 
+	font-size: medium;
+	float: right;
+
+	
+}
+
+.text
+{
+	width:350px;
+	border: 1px solid grey;
+	text-align: justify; 
+	font-size: medium;
+}
+
+#conteneur
+{
+	display: flex;
+	justify-content: space-around;
+	color: white;
+}
+
+header
+{
+background-color: black;
+
+}
+
+footer
+{
+	color: white;
+	background-color: black;
+	text-align: center;
+}
+
+

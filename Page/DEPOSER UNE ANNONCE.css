@@ -1,0 +1,64 @@
+
+body
+{
+  font-size: 1,3em;
+  font-family: "OpenSans",sans-serif;
+  background-color: grey;
+  padding: 12px;
+  margin: 50px;
+
+}
+
+
+#conteneur
+{
+	display: flex;
+	justify-content: space-around;
+	color: white;
+}
+
+header
+{
+background-color: black;
+
+}
+
+footer
+{
+	color: white;
+	background-color: black;
+	text-align: center;
+}
+
+#case0
+{
+	background-color: grey;
+  	padding: 12px;
+  	margin: 50px;
+}
+
+#case1
+{
+	display: flex;
+	color: white;
+	background-color: black;
+	float: center
+	border: inherit solid grey;
+
+}
+
+#case2
+{
+	display: flex;
+	color: white;
+	background-color: black;
+
+}
+
+#case3
+{
+	display: flex;
+	color: white;
+	background-color: black;
+}
+

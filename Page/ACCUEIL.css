@@ -1,0 +1,38 @@
+  
+body
+{
+	font-size: 1,3em;
+  font-family: "OpenSans",sans-serif;
+  background-color: grey;
+  padding: 12px;
+  margin: 50px;
+
+
+    background-image: url("accueil.png");
+    background-attachment: fixed; /* Le fond restera fixe */
+    background-repeat: no-repeat; /* Le fond ne sera pas répété */
+    background-position: center; /* Le fond sera placé en haut à droite */
+}
+
+
+header
+{
+	background-color: black;
+	color: white;
+}
+
+#conteneur
+{
+	display: flex;
+	justify-content: space-around;
+	color: white;
+}
+
+footer
+{
+	color: white;
+	background-color: black;
+	text-align: center;
+}
+
+
