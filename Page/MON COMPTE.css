@@ -1,55 +1,12 @@
 
 body
 {
-  font-size: 1,3em;
+	font-size: 1,3em;
   font-family: "OpenSans",sans-serif;
   background-color: grey;
   padding: 12px;
   margin: 50px;
 
-}
-
-
-#conteneur
-{
-	display: flex;
-	justify-content: space-around;
-	color: white;
-}
-
-header
-{
-background-color: black;
-
-}
-
-.text
-{
-	width:750px;
-	border: 1px solid grey;
-	text-align: justify; 
-	font-size: medium;
-	float:right;
-	
-}
-.formulaire
-{
-	
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    justify-content: space-between;
-  
-
-}
-
-.rg
-{
-	width:350px;
-	border: 1px solid grey;
-	text-align: justify; 
-	font-size: medium;
-	float: right;
 }
 
 
@@ -59,3 +16,4 @@ footer
 	background-color: black;
 	text-align: center;
 }
+

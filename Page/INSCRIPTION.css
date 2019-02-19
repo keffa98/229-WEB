@@ -1,12 +1,10 @@
 
 body
 {
-  font-size: 1,3em;
+	font-size: 1,3em;
   font-family: "OpenSans",sans-serif;
-  background-color: grey;
   padding: 12px;
   margin: 50px;
-
 
 }
 
@@ -24,7 +22,7 @@ body
 .bord
 {
 	width:350px;
-	border: 1px solid grey;
+	
 	text-align: justify; 
 	font-size: medium;
 	float: right;
@@ -35,23 +33,10 @@ body
 .text
 {
 	width:350px;
-	border: 1px solid grey;
 	text-align: justify; 
 	font-size: medium;
 }
 
-#conteneur
-{
-	display: flex;
-	justify-content: space-around;
-	color: white;
-}
-
-header
-{
-background-color: black;
-
-}
 
 footer
 {
