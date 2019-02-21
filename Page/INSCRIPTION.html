@@ -8,101 +8,165 @@
 </head>
 
 <body>
-		<header>
-				<!--Navbar-->
-				<nav class="navbar navbar-light light-blue lighten-4">
+	<header>
+		<!--Navbar-->
+		<nav class="navbar navbar-light light-blue lighten-4">
 				
-						<!-- Navbar brand -->
-						<a class="navbar-brand" href="#">MENU</a>
+		<!-- Navbar brand -->
+		<a class="navbar-brand" href="#">MENU</a>
+		  
+		<!-- Collapse button -->
+		<button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+	 	  aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i
+		  class="fas fa-bars fa-1x"></i></span></button>
 					  
-						<!-- Collapse button -->
-						<button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
-						  aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i
-							  class="fas fa-bars fa-1x"></i></span></button>
+		<!-- Collapsible content -->
+		<div class="collapse navbar-collapse" id="navbarSupportedContent1">
 					  
-						<!-- Collapsible content -->
-						<div class="collapse navbar-collapse" id="navbarSupportedContent1">
-					  
-						  <!-- Links -->
-						  <ul class="navbar-nav mr-auto">
-							<li class="nav-item active">
-							  <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
-							</li>
-							<li class="nav-item">
-							  <a class="nav-link" href="#">DEPOSER UNE ANNONCE</a>
-							</li>
-							<li class="nav-item">
-							  <a class="nav-link" href="#">LOGIN</a>
-							</li>
-							<li class="nav-item">
-									<a class="nav-link" href="#">SIGNUP</a>
-								  </li>
-						  </ul>
-						  <!-- Links -->
-					  
-						</div>
-						<!-- Collapsible content -->
-					  
-					  </nav>
-					  <!--/.Navbar-->
-						
-						</header>
-
-	<div>
-
-	<div>
-	<section class="bord">
-		<form>
+			 <!-- Links -->
+			 <ul class="navbar-nav mr-auto">
+			<li class="nav-item active">
+			  <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="#">DEPOSER UNE ANNONCE</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="#">LOGIN</a>
+			</li>
+			<li class="nav-item">
+					<a class="nav-link" href="#">SIGNUP</a>
+			</li>
+		  	</ul>
+			<!-- Links -->
 		
-			<label>Pseudo</label>
-			<input class="formulaire" type="text" name="pseudo" maxlength="50"/>
-		<br/>
-			<label class="formulaire" for="pays">Pays</label>
-			<select>
- 				<option value="Bénin">Bénin</option>
-				<option value="Côte d'Ivoire">Côte d'ivoire</option>
-				<option value="Sénégal">Sénégal</option>
-				<option value="Togo">Togo</option>		
-			</select>
-		<br/>
-			<label for="num">Numéro de téléphone</label>
-			<input class="formulaire" type="tel" name="num" />
-		<br/>
-		<label>Email</label>
-		<input class="formulaire" type="email" name="email"
-		maxlength="50"/>
-		<br/>
-		<label>Password</label>
-		<input class="formulaire" type="password" name="password"
-		maxlength="10"/>
-		<br/>
-		<label>Confirm</label>
-		<input class="formulaire" type="password" name="passwordConfirm"
-		maxlength="10"/>
-	<br/>
-	<input class="formulaire" type="submit" name="valider" text="Confirmer" size="30" >
-	
-	</form>
-	</section>
+		</div>
+		<!-- Collapsible content -->
+					  
+		</nav>
+		 <!--/.Navbar-->
+						
+	</header>
+		<div class="container register">
+			<div class="row"><!--Welcome Part -->
+				<div class="col-md-3 register-left"> 
+					<img src="https://image.ibb.co/n7oTvU/logo_white.png" alt=""/>
+					<h3>Welcome</h3>
+					<p>You are 30 seconds away from sellings and buying your dreams</p>
+					<input type="submit" name="Login" value="Login"/><br/>
+				</div>
 
-</div>
-<div>
-	<section class="text">
-		<h1> Pourquoi créer un compte ?</h1>
+				<div class="col-md-9 register-right"> <!--  contain master piece  -->
+					<ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
+						<li class="nav-item">
+							<a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Particulier</a>
+						</li>
 
-		<STRONG> Gagnez du temps</STRONG><br/>
-		<p>Publiez vos annonces rapidement,avec vos informations pré-remplies chaque fois que vous souhaitez déposer une nouvelle annonce.</p>
+						<li class="nav-item">
+							<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Pro</a>
+						</li>
+					</ul>
 
-		<STRONG>Soyez le premier informé</STRONG><br/>
-		<p>Créez des alertes Immo ou Emploi et ne manquez jamais l'annonce qui vous intéresse.</p>
+				<div class="tab-content" id="myTabContent">
+					<div class="tab-pane fade show active" id="home" role="tabl" aria-labelledby="home-tab">
+						<h3 class="register-heading">Apply as a Particulier</h3>
+							<div class="row register-form">
+								<div class="col-md-6">
+									<div class="form-group">
+										<input type="text" class="form-control" placeholder="Firsme *" value="" />
+									</div>
+									<div class="form-group">
+										<input type="text" class="form-control" placeholder="Lasme *" value="" />
+									</div>
+									<div class="form-group">
+										<input type="password" class="form-control" placeholder="Password *" value="" />
+									</div>
+									<div class="form-group">
+									<input type="password" class="form-control"  placeholder="Confirm Password *" value="" />
+									</div>
+									<div class="form-group">
+										<div class="maxl">
+											<label class="radio inline"> 
+												<input type="radio" name="gender" value="male" checked>
+												<span> Male </span> 
+											</label>
+											<label class="radio inline"> 
+												<input type="radio" name="gender" value="female">
+												<span>Female </span> 
+											</label>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+										<input type="email" class="form-control" placeholder="Your Email *" value="" />
+									</div>
+									<div class="form-group">
+										<input type="text" minlength="10" maxlength="10" name="txtEmpPhone" class="form-control" placeholder="Your Phone *" value="" />
+									</div>
+									<div class="form-group">
+										<select class="form-control">
+										<option class="hidden"  selected disabled>Please select your Sequrity Question</option>
+										<option>What is your Birthdate?</option>
+										<option>What is Your old Phone Number</option>
+										<option>What is your Pet Name?</option>
+										</select>
+									</div>
+									<div class="form-group">
+									<input type="text" class="form-control" placeholder="Enter Your Answer" value="" />
+									</div>
+									<input type="submit" class="btnRegister"  value="Register"/>
+								</div>
+								</div>
+					</div>
+								<div class="tab-pane fade show" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+									<h3  class="register-heading">Apply as a Pro</h3>
+										<div class="row register-form">
+											<div class="col-md-6">
+												<div class="form-group">
+													<input type="text" class="form-control" placeholder="First Name *" value="" />
+												</div>
+												<div class="form-group">
+													<input type="text" class="form-control" placeholder="Last Name *" value="" />
+												</div>
+												<div class="form-group">
+													<input type="email" class="form-control" placeholder="Email *" value="" />
+												</div>
+												<div class="form-group">
+													<input type="text" maxlength="10" minlength="10" class="form-control"	placeholder="Phone" value="" />
+												</div>
+									
+														
+									
+											</div>
 
-		<STRONG>Visibilité</STRONG><br/>
-		<p>Suivez les statistiques de vos annonce
-		(nombre de fois où votre annonce a été vue</p>
-	</section>
-	</div>
-
-	</div>
+											<div class="col-md-6">
+												<div class="form-group">
+													<input type="password" class="form-control" placeholder="Password *" value="" />
+												</div>
+												<div class="form-group">
+													<input type="password" class="form-control" placeholder="Confirm Password *" value="" />
+												</div>
+												<div class="form-group">
+													<select class="form-control">
+														<option class="hidden"  selected disabled>Please select your SeQuestion</option>
+														<option>What is your Birthdate?</option>
+														<option>What is Your old Phone Number</option>
+														<option>What is your Pet Name?</option>
+													</select>
+												</div>
+												<div class="form-group">
+													<input type="text" class="form-control" placeholder="`Answer *" value="" />
+												</div>
+													<input type="submit" class="btnRegister"  value="Register"/>
+												</div>
+										</div>
+								</div>
+							</div>
+						</div>
+													</div>
+									
+				</div>
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
