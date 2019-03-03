@@ -3,25 +3,12 @@ body
 {
   font-size: 1,3em;
   font-family: "OpenSans",sans-serif;
-  background-color: grey;
+  background-color: whitesmoke;
   padding: 12px;
   margin: 50px;
 
 }
 
-
-#conteneur
-{
-	display: flex;
-	justify-content: space-around;
-	color: white;
-}
-
-header
-{
-background-color: black;
-
-}
 
 footer
 {
@@ -32,7 +19,7 @@ footer
 
 #case0
 {
-	background-color: grey;
+	background-color: whitesmoke;
   	padding: 12px;
   	margin: 50px;
 }

@@ -1,5 +1,5 @@
 
-function loginbox(){
-
+function loginbox() {
     alert("welcome")
 }
+
